@@ -7,6 +7,7 @@ fun main(args: Array<String>) {
     val list = arrayListOf(1, 2, 3)
     list.forEach { println(it) }
 
+    //English to French translation
     val list2 = arrayListOf(
             Pair("Hello", "Bonjour / Bonsoir"),
             Pair("Good bye", "Au revoir"),
