@@ -1,4 +1,4 @@
-package Collections.Map
+package ie.murph.collections.Map
 
 /**
  * Created by Paul on 8/9/2016.

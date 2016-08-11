@@ -1,4 +1,4 @@
-package Collections.Arrays
+package ie.murph.collections.Arrays
 
 /**
  * Created by Paul on 8/7/2016.
