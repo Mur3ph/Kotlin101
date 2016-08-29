@@ -1,5 +1,7 @@
 package ie.murph.collections.application
+import ie.murph.collections.Arrays.MyArray
 import ie.murph.collections.List.MyList
+import ie.murph.collections.Map.MyMap
 
 /**
  * Created by Paul on 8/6/2016.
@@ -10,6 +12,12 @@ fun main(args : Array<String>){
     //val number: Int = 28
     println(message)
 
+    val arr = MyArray()
+    println(arr.differentTypesOfNumbers())
+
     val list = MyList()
     println(list.pairEnglishToFrenchTranslation())
+
+    val map = MyMap()
+    println(map.pairEnglishToChineseTranslation())
 }

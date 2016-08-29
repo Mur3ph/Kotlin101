@@ -4,28 +4,34 @@ package ie.murph.collections.Map
  * Created by Paul on 8/9/2016.
  */
 
-// English to Chinese translation
-fun main(args: Array<String>) {
-    val dictionary = hashMapOf(
-            "Hello" to "Ni hao",
-            "Thank you" to "Xie Xie Ni",
-            "See ya" to "Zai Jian "
-    )
+class MyMap{
 
-    println("Hello in chinese: ${dictionary["Hello"]}" )
+    // English to Chinese translation
+    fun main(args: Array<String>) {
 
-    //This is called multi declaration, where you assign each paired key and value to seperate variables
-    for ((myKey, myValue) in dictionary)
-        println("Key in $myKey has a value of $myValue")
+    }
 
-    for(myKey in dictionary.keys)
-        println("Key in '$myKey' with a value of '${dictionary[myKey]}'")
+    fun pairEnglishToChineseTranslation()
+    {
+        val dictionary = hashMapOf(
+                "Hello" to "Ni hao",
+                "Thank you" to "Xie Xie Ni",
+                "See ya" to "Zai Jian "
+        )
 
-    println("Now, looping using the entrySet")
+        println("Hello in chinese: ${dictionary["Hello"]}" )
 
-    for(n in dictionary.entries)
-        println("Key ${n.key} has a value of ${n.value}")
+        //This is called multi declaration, where you assign each paired key and value to seperate variables
+        for ((myKey, myValue) in dictionary)
+            println("Key in $myKey has a value of $myValue")
 
+        for(myKey in dictionary.keys)
+            println("Key in '$myKey' with a value of '${dictionary[myKey]}'")
 
+        println("Now, looping using the entrySet")
+
+        for(n in dictionary.entries)
+            println("Key ${n.key} has a value of ${n.value}")
+    }
 
 }
