@@ -1,4 +1,4 @@
-package ie.murph.application
+package ie.murph.collections.application
 import ie.murph.collections.List.MyList
 
 /**
@@ -7,7 +7,7 @@ import ie.murph.collections.List.MyList
 
 fun main(args : Array<String>){
     var message: String = "Hello, Pauly"
-    val number: Int = 28
+    //val number: Int = 28
     println(message)
 
     val list = MyList()
