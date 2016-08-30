@@ -1,4 +1,4 @@
-package ie.murph.objects.copy_data_class
+package ie.murph.objects.data_class
 
 /**
  * Created by Paul on 8/30/2016.
