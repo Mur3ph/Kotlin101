@@ -19,8 +19,7 @@ fun main(args : Array<String>)
     println("")
 
     println(" *** My Data Class using data class features *** ")
-    val tennisPlayer = TennisPlayer("Roger", "Federer")
-    tennisPlayer.playTennis()
+    playTennis()
     println("")
 
     println(" *** My Data Class using Copy functon *** ")
@@ -31,5 +30,23 @@ fun main(args : Array<String>)
     val footballerTwo = footballerOne.copy(footballersName = "Paul Scholes")
     footballerTwo.printPlayerWithClub()
     println("")
+
+}
+
+public fun playTennis()
+{
+    val tennisPlayerOne = TennisPlayer("Roger", "Federer")
+    val tennisPlayerTwo = TennisPlayer("Pete", "Sampras")
+
+    //Tennis player, atomatic tostring() generation
+    println("Tennis player is ${tennisPlayerOne.toString()}")
+
+    //Atomatic hashCode
+    println("Tennis player is ${tennisPlayerOne.hashCode()}")
+
+    //Auto generated equals() function
+    var areTheyEqual = tennisPlayerOne.equals(tennisPlayerTwo)
+    println("Is the first tennis player equal to the second: $areTheyEqual")
+
 
 }
