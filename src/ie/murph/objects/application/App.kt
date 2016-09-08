@@ -36,8 +36,9 @@ fun main(args : Array<String>)
 // MyDataClass file using data class features
 public fun playTennis()
 {
-    val tennisPlayerOne = TennisPlayer("Roger", "Federer")
-    val tennisPlayerTwo = TennisPlayer("Pete", "Sampras")
+    var tennisPlayerOne = TennisPlayer("Roger", "Federer")
+    var tennisPlayerTwo = TennisPlayer("Roger", "Federer")
+    var tennisPlayerThree = TennisPlayer("Pete", "Sampras")
 
     //Tennis player, atomatic tostring() generation
     println("Tennis player is ${tennisPlayerOne.toString()}")
@@ -49,5 +50,24 @@ public fun playTennis()
     var areTheyEqual = tennisPlayerOne.equals(tennisPlayerTwo)
     println("Is the first tennis player equal to the second: $areTheyEqual")
 
+    val isFirstName = tennisPlayerThree.firstName.equals(tennisPlayerThree.component1())
+    println("is .firstName equals to .component1? $isFirstName")
 
+    var isSecondName = tennisPlayerThree.lastName.equals(tennisPlayerThree.component2())
+    println("is .lastName equals to .component2? $isSecondName")
+
+    // Multi declarations
+    val tennisPlayer = { x : TennisPlayer -> x}
+    val(firstName, lastName ) = tennisPlayer(tennisPlayerOne)
+    println("Our tennis player name is $firstName $lastName")
+
+    val(firstName2, lastName2) = superCharge(tennisPlayerOne)
+    println("Our super charged tennis player name is $firstName2 $lastName2")
+}
+
+// Another sample of multi declarations
+fun superCharge(x : TennisPlayer) : TennisPlayer
+{
+    var m = TennisPlayer(x.firstName.toUpperCase(), x.lastName.toLowerCase())
+    return m
 }
