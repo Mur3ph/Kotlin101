@@ -1,8 +1,10 @@
 package ie.murph.objects.application
 
+import com.sun.xml.internal.fastinfoset.util.StringArray
 import ie.murph.objects.constructors.Primary
 import ie.murph.objects.data_class.Footballer
 import ie.murph.objects.data_class.TennisPlayer
+import ie.murph.objects.enums.AiAlgorithms
 
 /**
  * Created by Paul on 8/29/2016.
@@ -29,6 +31,16 @@ fun main(args : Array<String>)
     //Using the 'copy' function
     val footballerTwo = footballerOne.copy(footballersName = "Paul Scholes")
     footballerTwo.printPlayerWithClub()
+    println("")
+
+    println(" *** My Enums  *** ")
+    var algorithm = AiAlgorithms.BREADTH_FIRST_SEARCH
+    val al = AiAlgorithms.values()
+    println(algorithm)
+    for(a in al)
+    {
+        println(a)
+    }
     println("")
 
 }
