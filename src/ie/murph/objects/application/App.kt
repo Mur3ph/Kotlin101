@@ -48,8 +48,8 @@ fun main(args : Array<String>)
 
     println(" *** My Delegation - To be able to automatically assign an Object to handle any Interface *** ")
     var me = BruceWayne(Batman(), RichyRich())
-    me.inWater()
-    println("Is awesomely rich? " + me.isAwesomelyRich())
+    me.inWater() //Batman
+    println("Is Richard awesomely rich? " + me.isAwesomelyRich())
     println("")
 }
 
