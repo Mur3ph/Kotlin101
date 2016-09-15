@@ -1,9 +1,9 @@
 package ie.murph.objects.application
 
 import com.sun.xml.internal.fastinfoset.util.StringArray
-import ie.murph.objects.Delegation.Batman
-import ie.murph.objects.Delegation.BruceWayne
-import ie.murph.objects.Delegation.RichyRich
+import ie.murph.objects.Delegation.Movies.Batman
+import ie.murph.objects.Delegation.Movies.BruceWayne
+import ie.murph.objects.Delegation.Movies.RichyRich
 import ie.murph.objects.constructors.Primary
 import ie.murph.objects.data_class.Footballer
 import ie.murph.objects.data_class.TennisPlayer
