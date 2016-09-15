@@ -4,6 +4,7 @@ import com.sun.xml.internal.fastinfoset.util.StringArray
 import ie.murph.objects.Delegation.Movies.Batman
 import ie.murph.objects.Delegation.Movies.BruceWayne
 import ie.murph.objects.Delegation.Movies.RichyRich
+import ie.murph.objects.Delegation.Tennis.LazyUmpire
 import ie.murph.objects.constructors.DiceConstructor
 import ie.murph.objects.constructors.Primary
 import ie.murph.objects.data_class.Footballer
@@ -58,6 +59,13 @@ fun main(args : Array<String>) {
     var me = BruceWayne(Batman(), RichyRich())
     me.inWater() //Batman
     println("Is Richard awesomely rich? " + me.isAwesomelyRich())
+    println("")
+
+    println("*** Lazy Delegation")
+    val umpire = LazyUmpire()
+    println("Lazy = ${umpire.lazy}")
+    println("Lazy = ${umpire.lazy}")
+    println("Lazy = ${umpire.increments}")
     println("")
 }
 
