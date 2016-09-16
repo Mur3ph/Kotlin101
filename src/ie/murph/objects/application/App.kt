@@ -4,7 +4,8 @@ import com.sun.xml.internal.fastinfoset.util.StringArray
 import ie.murph.objects.Delegation.Movies.Batman
 import ie.murph.objects.Delegation.Movies.BruceWayne
 import ie.murph.objects.Delegation.Movies.RichyRich
-import ie.murph.objects.Delegation.Tennis.LazyUmpire
+import ie.murph.objects.Delegation.Tax.ObservableDelegateTaxRate
+import ie.murph.objects.Delegation.Tennis.LazyDelegateUmpire
 import ie.murph.objects.constructors.DiceConstructor
 import ie.murph.objects.constructors.Primary
 import ie.murph.objects.data_class.Footballer
@@ -62,10 +63,15 @@ fun main(args : Array<String>) {
     println("")
 
     println("*** Lazy Delegation")
-    val umpire = LazyUmpire()
+    val umpire = LazyDelegateUmpire()
     println("Lazy = ${umpire.lazy}")
     println("Lazy = ${umpire.lazy}")
     println("Lazy = ${umpire.increments}")
+    println("")
+
+    println("*** Observable Delegation")
+    val rate = ObservableDelegateTaxRate()
+    rate.value = 19.0f
     println("")
 }
 
