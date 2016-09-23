@@ -1,11 +1,11 @@
 package ie.murph.objects.application
 
 import com.sun.xml.internal.fastinfoset.util.StringArray
-import ie.murph.objects.Delegation.Movies.Batman
-import ie.murph.objects.Delegation.Movies.BruceWayne
-import ie.murph.objects.Delegation.Movies.RichyRich
-import ie.murph.objects.Delegation.Tax.ObservableDelegateTaxRate
-import ie.murph.objects.Delegation.Tennis.LazyDelegateUmpire
+import ie.murph.objects.delegation.Movies.Batman
+import ie.murph.objects.delegation.Movies.BruceWayne
+import ie.murph.objects.delegation.Movies.RichyRich
+import ie.murph.objects.delegation.Tax.ObservableDelegateTaxRate
+import ie.murph.objects.delegation.Tennis.LazyDelegateUmpire
 import ie.murph.objects.constructors.DiceConstructor
 import ie.murph.objects.constructors.Primary
 import ie.murph.objects.data_class.Footballer

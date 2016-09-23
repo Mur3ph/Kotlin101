@@ -1,6 +1,6 @@
-package ie.murph.objects.Delegation.Movies
+package ie.murph.objects.delegation.Movies
 
-import ie.murph.objects.Delegation.Movies.Wealth
+import ie.murph.objects.delegation.Movies.Wealth
 
 /**
  * Created by Paul on 9/12/2016.

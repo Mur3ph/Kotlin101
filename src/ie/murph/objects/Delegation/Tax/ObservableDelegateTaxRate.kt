@@ -1,4 +1,4 @@
-package ie.murph.objects.Delegation.Tax
+package ie.murph.objects.delegation.Tax
 
 import kotlin.properties.Delegates
 

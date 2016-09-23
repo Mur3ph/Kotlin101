@@ -1,4 +1,4 @@
-package ie.murph.objects.Delegation.Tennis
+package ie.murph.objects.delegation.Tennis
 
 /**
  * Created by Paul on 9/15/2016.

@@ -1,7 +1,7 @@
 package ie.murph.objects.application
 
-import ie.murph.objects.Inheritance.FinalConstruct
-import ie.murph.objects.Inheritance.LessFlexible
+import ie.murph.objects.inheritance.FinalConstruct
+import ie.murph.objects.inheritance.LessFlexible
 
 /**
  * Created by Paul on 9/20/2016.

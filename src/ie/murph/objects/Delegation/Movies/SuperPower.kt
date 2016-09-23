@@ -1,4 +1,4 @@
-package ie.murph.objects.Delegation.Movies
+package ie.murph.objects.delegation.Movies
 
 /**
  * Created by Paul on 9/12/2016.

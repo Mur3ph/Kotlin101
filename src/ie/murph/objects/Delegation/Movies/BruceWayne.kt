@@ -1,9 +1,9 @@
-package ie.murph.objects.Delegation.Movies
+package ie.murph.objects.delegation.Movies
 
-import ie.murph.objects.Delegation.Movies.Batman
-import ie.murph.objects.Delegation.Movies.RichyRich
-import ie.murph.objects.Delegation.Movies.SuperPower
-import ie.murph.objects.Delegation.Movies.Wealth
+import ie.murph.objects.delegation.Movies.Batman
+import ie.murph.objects.delegation.Movies.RichyRich
+import ie.murph.objects.delegation.Movies.SuperPower
+import ie.murph.objects.delegation.Movies.Wealth
 
 /**
  * Created by Paul on 9/12/2016.
