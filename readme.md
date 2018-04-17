@@ -2,7 +2,7 @@
 
 ## Sites
 
-1. [From Java to Kotlin] (https://fabiomsr.github.io/from-java-to-kotlin/)
+1. [From Java to Kotlin](https://fabiomsr.github.io/from-java-to-kotlin/)
 
 
 
@@ -11,12 +11,6 @@
 </p>
 
 # From Java To Kotlin
-[![Mindorks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
-[![Mindorks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
-> From Java To Kotlin - Your Cheat Sheet For Java To Kotlin
-
-[中文支持](https://github.com/MindorksOpenSource/from-java-to-kotlin/blob/master/README-ZH.md)
----
 
 > Java
 
